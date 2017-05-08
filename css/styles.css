@@ -1,0 +1,118 @@
+.clearfix{
+    clear: both;
+    overflow: hidden;
+}
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+}
+#container{
+    width: 1000px;
+
+    margin: auto;
+}
+header{
+    position: fixed;
+    width: 970px;
+    top: 0px;
+    height: 60px;
+    background: #f5f5f5;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+nav{
+    margin-top: 95px;
+    background: #f5f5f5;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+nav ul{
+    float: left;
+    margin-top: 5px;
+    width: 70%;
+}
+#search{
+    float: right;
+    width: 30%;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: #000;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-right: 1px solid #000;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav ul li:last-child a{
+    border-right: 0px;
+}
+#search input{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#content-left{
+    float: left;
+    width: 35%;
+    padding: 15px;
+    background: #f8f8ff;
+}
+#content-left h2{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0px;
+}
+#content-left h2 span{
+    color: #333;
+    font-size: 13px;
+}
+#content-left p{
+    text-align: left;
+}
+.item{
+    background: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.link-item{
+    text-decoration: none;
+    color: #000;
+}
+.link-item:hover{
+    color: red;
+}
+#content-right{
+    float: right;
+    width: 60%;
+}
+#content-right h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+#content-right h3 span{
+    color: #333;
+    font-size: 13px;
+}
+#content-right p{
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+}
+footer {
+    margin-top: 5px;
+    height: 50px;
+    background: #f8f8ff;
+}
+footer p{
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
